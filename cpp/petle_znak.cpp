@@ -10,10 +10,14 @@ using namespace std;
 int main(int argc, char **argv)
 
 {
-    char zn='t';
-    while () { // || - lub
-        cout << "Podaj miesiąc (1-12): " << endl;
-        cin >> m;
+    char zn='t'; //deklaracja (char-zmienne,jednoznakowe)
+    while (zn == 't' || zn == 'T' || zn == 'n' || zn == 'N') { 
+        cout << "Podaj znak: " << endl;
+        cin >> zn;
+        //if (zn == 't' || zn == 'T' || zn == 'n' || zn == 'N')
+        //cout << zn << endl;
+        //else 
+    
         };
 
     
