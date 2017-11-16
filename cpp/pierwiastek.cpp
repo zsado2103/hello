@@ -14,7 +14,7 @@ int main(int argc, char **argv)
     int r = 0;
     
 	//cout << "Witaj w C++!" << endl;
-	cout << "Podaj liczbę:";
+	cout << "Podaj liczbe:";
     //cin >> imie;
     //cin.getline(imie, 10);
     cin >> r;

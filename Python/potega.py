@@ -7,9 +7,9 @@
 
 def potega_it(podst, wykladnik):
     """Funkcja oblicza  iteracyjnie potęgę liczby naturalnej"""
-    wynik = ...
+    wynik = 1
     for i in range(wykladnik):
-        wynik = ...
+        wynik = wynik*i
     return wynik
 
 
