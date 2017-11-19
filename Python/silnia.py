@@ -19,7 +19,7 @@ def main(args):
     assert silnia_it(0) == 1
     assert silnia_it(1) == 1
     assert silnia_it(7) == 5040
-    # print("Potęga: ", potega_it(a, n))
+    print("Silnia: ", silnia_it(a))
 
     return 0
 
