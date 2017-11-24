@@ -19,6 +19,19 @@ def maksimum(lista):
     return max
 
 
+def minmax(lista):
+    lmin = []
+    lmax = []
+    i = 0
+    for i in range(int(len(lista) / 2)):
+        if lista[i] > lista[i + 1]:
+            lmin.append(lista[i + 1])
+            lmax.append(lista[i])
+        else:
+            lmin.append(lista[i])
+            lmax.append(lista[i + 1])
+
+
 def losuj(ile, zakres):
     lista = []
     for i in range(ile):
@@ -30,6 +43,8 @@ def main(args):
     ile = 20
     zakres = 50
     lista = losuj(ile, zakres)
+    assert minimum([7, 4, 9, 1, 3, 0]) == 0
+    assert maksimum([7, 4, 9, 1, 3, 0]) == 9
     print(lista)
     print("Minimum: ", minimum(lista))
     print("Największa: ", maksimum(lista))
