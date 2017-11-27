@@ -30,7 +30,11 @@ def minmax(lista):
         else:
             lmin.append(lista[i])
             lmax.append(lista[i + 1])
-
+		i += 2
+		print("Lista max: ", lmax)
+		print("Lista min: ", lmin)
+		
+		return lmax, lmin
 
 def losuj(ile, zakres):
     lista = []
