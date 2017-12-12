@@ -16,10 +16,10 @@ def potega_it(podst, wykladnik):
 # an = a(n - 1) * a dla n > 0
 
 
-def potega_rek(podst, wykladnik):
-    if wykladnik == 0:
+def potega_rek(a, n):
+    if n == 0:
         return 1
-    return potega_rek(podst, wykladnik - 1) * podst
+    return potega_rek(a, n - 1) * a
 
 
 def main(args):

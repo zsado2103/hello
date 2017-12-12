@@ -39,14 +39,13 @@ def fib_iter2(n):
 # F(1) = 1
 # F(n) = F(n-2) + F(n-1) dla n > 1
 def fib_rek(n):
-    if n == 1:
+    if n < 2:
         return 1
-    return fib_rek(n - 2) + (n - 1)
+    return fib_rek((n - 1) + (n - 2))
 
 
 def main(args):
-    fib_iter(20)
-    fib_reg(20)
+	fib_iter(20)
     return 0
 
 

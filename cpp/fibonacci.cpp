@@ -23,6 +23,13 @@ int fib_iter(int n)
         a = b-a;
 	}
 }
+int fib_rek(int n)
+{
+	if (n == 1)
+		return 1;
+	else
+		return fib_rek((n - 2) + (n - 1));
+	}
 
 int main(int argc, char **argv)
 {
@@ -32,4 +39,3 @@ int main(int argc, char **argv)
 	fib_iter(n);
 	return 0;
 }
-

@@ -12,9 +12,17 @@ int silnia(int(n))
 		for (int i = 2; i<=n ; i++)
 		{
 			wynik = wynik * i;	
+			cout << wynik << endl;
 		}	
 		return wynik;
 	}
+int silnia_rek(int n)
+{
+    if (n < 2)
+        return 1;
+    else
+        return silnia_rek(n- 1) * n;
+}
 
 int main(int argc, char **argv)
 {
