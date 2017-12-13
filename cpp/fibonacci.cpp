@@ -25,7 +25,7 @@ int fib_iter(int n)
 }
 int fib_rek(int n)
 {
-	if (n == 1)
+	if (n < 2)
 		return 1;
 	else
 		return fib_rek((n - 2) + (n - 1));
@@ -36,6 +36,6 @@ int main(int argc, char **argv)
 	int n;
 	cout << "Podaj liczbe " << endl;
 	cin >> n;
-	fib_iter(n);
+    cout << fib_rek(n) << endl;
 	return 0;
 }

@@ -29,7 +29,7 @@ int main(int argc, char **argv)
 	int n = 1;
 	cout << "Podaj liczbe " << endl;
 	cin >> n ;
-	cout << "Silnia wynosi: " << silnia(int(n)) << endl;
+    silnia(int(n));
 	return 0;
 }
 
