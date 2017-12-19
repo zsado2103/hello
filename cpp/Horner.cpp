@@ -14,8 +14,8 @@ using namespace std;
 float horner_rek(int k, float tbwsp[],float x)
 {
     if (k == 0)
-        return tbwsp[0] * x
-    return horner_rek(k - 1, tbwsp, x) * x + tbwsp[k]
+        return tbwsp[0] * x;
+    return horner_rek(k - 1, tbwsp, x) * x + tbwsp[k];
     
     }
 
@@ -23,15 +23,15 @@ float horner_it(int k, float tbwsp[], float x){
     float wynik = tbwsp[0];
     for (int i = 1; i < k + 1; i++){
         wynik = wynik * x + tbwsp[i];
-    }
+    
     return wynik;
 }  
 
 
 
 int main(int argc, char **argv)
-{   
-    float x;
+  
+    float x = 0;
     float wspolczynniki[4];
     int stopien = 3;
     cout << "Podaj x: " << endl;
