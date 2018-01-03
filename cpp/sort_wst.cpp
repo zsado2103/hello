@@ -44,6 +44,9 @@ int main(int argc, char **argv)
     
   
 	sort_wstaw(lista, ile);
+    
+    for (int i = 0; i < ile; i++) cout << lista[ile] " " <<;
+    cout << lista << endl;
 
 	return 0;
 }
