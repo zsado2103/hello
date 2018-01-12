@@ -1,0 +1,19 @@
+Content-Type: text/x-zim-wiki
+Wiki-Format: zim 0.4
+Creation-Date: 2018-01-12T11:13:04+01:00
+
+====== Cechy algorytmów ======
+Created piątek 12 styczeń 2018
+
+**Własności algorytmów:**
+1. Poprawność
+2. Skończoność
+3. Złożoność
+4. Efektywność
+
+Specyfikacja problemu - określenie celu, algorytmu, określenie danych początkowych.
+Możliwe jest, że algorytm jest częściowo poprawny.
+Wnioskowanie indukcyjne - metoda wyprowadzania wniosków, wnioskowanie z pojedyńczych informacji.
+Dedukcja - od ogółu do szczegółu.
+
+W poprawności/testowaniu algorytmów trzeba uważać na błędy logiczne!
