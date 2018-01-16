@@ -16,4 +16,12 @@ Możliwe jest, że algorytm jest częściowo poprawny.
 Wnioskowanie indukcyjne - metoda wyprowadzania wniosków, wnioskowanie z pojedyńczych informacji.
 Dedukcja - od ogółu do szczegółu.
 
-W poprawności/testowaniu algorytmów trzeba uważać na błędy logiczne!
+W poprawności/testowaniu algorytmów trzeba uważać na błędy logiczne.
+
+Złożoność czasowa jest funkcją wielkości zbioru danych np. : O(n), O(n^2), O(n!). Zależy od liczby operacji niezbędnych do ukończenia algorytmu.  
+Przykładową tego typu funkcją jest bąbelkowanie: O(n^2).
+
+Złożoność pamięciowa : Ile pamięci potrzebuje algorytm, by ukończyć działanie?
+
+Efektywność algorytmów zależy od typów danych.
+Algorytm liniowy lub nie.
