@@ -24,4 +24,5 @@ Przykładową tego typu funkcją jest bąbelkowanie: O(n^2).
 Złożoność pamięciowa : Ile pamięci potrzebuje algorytm, by ukończyć działanie?
 
 Efektywność algorytmów zależy od typów danych.
-Algorytm liniowy lub nie.
+
+

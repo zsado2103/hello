@@ -1,0 +1,35 @@
+Content-Type: text/x-zim-wiki
+Wiki-Format: zim 0.4
+Creation-Date: 2018-01-17T11:58:53+01:00
+
+====== Systemy numeryczne ======
+Created środa 17 styczeń 2018
+
+1. Systemy addytywne:
+System liczbowy rzymski:
+500 - D
+2018 - MMXVIII
+1530 - MDXXX
+1364 - MCCCLXIV
+
+2. Systemy pozycyjne
+Wartość liczby zależy od tego, na którym miejscu znajdują się poszczególne liczby. 
+234(6) = 2 * 6 ^2 + 3 * 6 ^ 1 + 4 * 6 ^ 0 = 72 + 18 + 4 = 94
+234(4) = -
+234(5) = 2 * 5 ^ 2 + 3 * 5 ^ 1 + 4 * 5 ^ 0 = 50 + 15 + 4 = 69
+
+Kolejne potęgi liczby 2: 
+128,64,32,16,8,4,2,1
+
+1111_{2} = 8 + 4 + 2 + 1 = 15
+1001_{2} = 8 + 1 = 9
+10010011_{2} = 128 + 16 + 2 + 1 = 147
+
+System o podstawie 16
+0 - 9, A, B, C, D, E, F
+FF =  F * 16^1 + F * 1 = 15 * 16 + 15 = 255
+1111111_{2} = 255_{10} = FF_{16}
+
+System o podstawie 8
+0 - 7
+644_{8} = 6 * 8 ^ 2 + 4 * 8 ^ 1 + 4 * 8 ^ 0 = 6 * 64+ 32 + 4 =  420
