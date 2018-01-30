@@ -15,7 +15,7 @@ int main(int argc, char **argv)
     int l14 = 14;
     int l15 = 15;
     cout << (int)znakA << (int)znakB << endl;
-    cout << (char)15 << (char)15 << endl;
+    cout << (char)l14 << (char)l15 << endl;
     //dane wejściowe
     int reszty[16];
 	int liczba = 0;
