@@ -1,0 +1,24 @@
+Content-Type: text/x-zim-wiki
+Wiki-Format: zim 0.4
+Creation-Date: 2018-01-31T12:14:54+01:00
+
+====== Kompresja ======
+Created środa 31 styczeń 2018
+
+Unikod 
+UTF - system kodowania unikod, wykorzystuje 1 - 6 bajtów (UTF 8)
+
+//Pierwszym sposobem kompresji jest kod Morse'a.//
+1. SOS - 000111000 (Potrzeba 9 bitów)
+
+
+
+						**KOMPRESJA**
+
+1.stratna
+- grafika: zdjęcia, obrazki (JPEG, PNG, BMP, GIF). Można usunąć np kolory, ton, przez co obrazki się zmniejszają
+- formaty audio video: 
+MKV - kontener, definiujący, że można przechowywać tam materiały audio video. strumień audio i strumień video.
+
+2. bezstratna     
+- archiwa komputerowe(zip,RAR, PTTX, OTD)
