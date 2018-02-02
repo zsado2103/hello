@@ -5,20 +5,43 @@ Creation-Date: 2018-01-31T12:14:54+01:00
 ====== Kompresja ======
 Created środa 31 styczeń 2018
 
-Unikod 
+Unikod - zestaw znaków obejmujący wszystkie pisma używane na świecie. 
+
 UTF - system kodowania unikod, wykorzystuje 1 - 6 bajtów (UTF 8)
 
-//Pierwszym sposobem kompresji jest kod Morse'a.//
+//Pierwszym sposobem kompresji jest kod Morse'a (algorytm statystyczny)//
 1. SOS - 000111000 (Potrzeba 9 bitów)
+2. SOS :  ...---... 000111000
 
 
 
 						**KOMPRESJA**
 
-1.stratna
+__1.stratna__
 - grafika: zdjęcia, obrazki (JPEG, PNG, BMP, GIF). Można usunąć np kolory, ton, przez co obrazki się zmniejszają
 - formaty audio video: 
 MKV - kontener, definiujący, że można przechowywać tam materiały audio video. strumień audio i strumień video.
+//Bitrate// - ilość bitów/danych/informacji na sekudę. MP3 ma 128 bitów/s, CD - 256B bitów/s. //BITRATE - PRZEPŁYWNOŚĆ DANYCH. //
+Jednostki: 
+//kilobit- kb, //
+//megabit -Mg, //
+//megabajt - MB//
 
-2. bezstratna     
+
+2. __bezstratna__     
 - archiwa komputerowe(zip,RAR, PTTX, OTD)
+
+Znaki: 
+NUL - 0
+LF(koniec linii) - 10
+CR(powrót karetki) - 13 
+Znak końca linii w Windows składa się z LF i CR
+
+Algorytm słownikowy
+The rain in Spain falls mainly on the plain. ⇒ 44 znaki
+The rain <3,3>Sp<9,3>falls m<11, 3>ly on t<34, 3>pl<15,3>. ⇒ 
+Współczynnik kompresji
+Rc = Vk / Vnk * 100
+ile znaków wstecz ⇒ 6 bitów(34 cofnięcia)
+długość ciągu ⇒ 2 bity
+
