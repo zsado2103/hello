@@ -1,0 +1,12 @@
+Content-Type: text/x-zim-wiki
+Wiki-Format: zim 0.4
+Creation-Date: 2018-02-06T12:59:07+01:00
+
+====== Szyfrowanie ======
+Created wtorek 06 luty 2018
+
+Szyfrowanie polega na ukryciu danych, czyli **tekstu jawnego(**kryptografia). W ten sposób otrzymujemy **SZYFROGRAM**. Odczytanie ukrytej informacji to **deszyfracja**(kryptoanaliza)
+Do odszyfrowania szyfrogramu potrzebny jest **algorytm szyfrowania i klucz**.
+
+Rodzaje szyfrów:
+1. Podstawieniowe : //Szyfr Cezara//

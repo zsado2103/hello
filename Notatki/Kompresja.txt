@@ -42,6 +42,8 @@ The rain in Spain falls mainly on the plain. ⇒ 44 znaki
 The rain <3,3>Sp<9,3>falls m<11, 3>ly on t<34, 3>pl<15,3>. ⇒ 
 Współczynnik kompresji
 Rc = Vk / Vnk * 100
+Rc = 33 / 44 * 100% = 75%
 ile znaków wstecz ⇒ 6 bitów(34 cofnięcia)
 długość ciągu ⇒ 2 bity
 
+Archiwizery : ZIP, RAR, 7z, TAR
