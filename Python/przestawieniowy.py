@@ -6,13 +6,23 @@ def szyfruj(tekst, klucz):
     reszta = len(tekst) % klucz
     if reszta:
         tekst += (klucz - reszta) * "."
+    szyfrogram = ""
     for i in range(klucz):
         for j in range(int(len(tekst) / klucz)):
             # 0, 10, 20, 30
             # 1, 11, 21, 31
             print(i + j * klucz, tekst[i + j * klucz])
-    return ""
+            szyfrogram += tekst[i + j * klucz]
+    return szyfrogram
 
+def deszyfruj(szyfrogram, klucz):
+    reszta = len(tekst) % klucz
+    tekst = ""
+    for i in range(klucz):
+        for j in range(int(len(szyfrogram) / klucz)):
+            print(i + j * klucz, tekst[i + j * klucz])
+            szyfrogram += tekst[i + j * klucz]
+    return szyfrogram
 
 def main(args):
     tekst = input("Podaj tekst: ")
