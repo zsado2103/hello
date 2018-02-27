@@ -21,3 +21,24 @@ HEQUESTION
 AND.......
 
 TOHAOBENBEQDETU.OHE.
+
+
+Zaszyfruj w dowolnym z programów(Cezara, Vigener'a, przestawieniowy) **imię, nazwisko, data urodzenia, miejsce urodzenia. SZYFROGRAM I KLUCZ! ---->.....**
+
+
+Szyfrowanie asymetryczne- kryptografia klucza publicznego.
+Klucz publiczny - ciąg cyfr, który podajemy do publicznej wiadomości
+Klucz prywatny - ciąg cyfr, który jest chroniony i zabezpieczony hasłem.
+Algorytm RSA - wygeneruje dwie pary kluczów(prywatny i publiczny)
+Podpis elektroniczny 
+
+ 
+Strony internetowe : 
+HTPPS
+SSL
+TLS
+Certyfikat - wystawiany przez urząd certyfikacji(firma, która gwarantuje tożsamość osoby)
+SSH
+Poczta elektroniczna: Pretty good privacy(PGP)
+
+Komunikacje między użytkownikami (retroshare)
