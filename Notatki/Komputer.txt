@@ -1,0 +1,19 @@
+Content-Type: text/x-zim-wiki
+Wiki-Format: zim 0.4
+Creation-Date: 2018-03-02T11:07:09+01:00
+
+====== Komputer ======
+Created piątek 02 marzec 2018
+
+Architektura von Neumanna 
+
+**Logiczne składniki komputera:** 
+**-** procesor określony jako logiczna jednostka arytmetyczna
+Napięcie 3 - 5 V = komputer przyjmuje logicznie  1
+Rozmiary rejestrów współczesnego procesota to 64 bity. Procesor składa się z rejestrów(komórki, w których zapisywane są różne dane):
+* akumulator
+- pamięć (RAM) 
+Control Unit - jednostka sterująca, synchronizuje pracę logicznych modułóœ komputera. Komunikuje się z procesorem i pamięcią za pomocą szyny systemowej(daje podstawową częstotliwość wykonywanej operacji najczęściej wyrażana w Hz). Obok szyny systemowej są : szyny danych(przesyła dane), szyna adresowa(decyduje, gdzie trafiają odpowiednie dane). 
+(ROM, RAM, BIOS, UEFI) Część danych bierze się z pamięci ROM, tylko do odczytu. ROM zachowuje dane na stałe w przeciwieństwie do RAM-u. W ROM-ie znajduje się BIOS(podstawowy system wejścia-wyjścia) → UEFI (Interfejs pomiędzy systemem operacyjnym a filmware, następca BIOS-u). Decyduje, jakie urządzenia komputer jest w stanie rozpoznać bądź przekazać, udostępnić systemowi operacyjnemu. 
+- urządzenia wejścia 
+- urządzenia wyjścia
