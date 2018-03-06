@@ -15,5 +15,33 @@ Rozmiary rejestrów współczesnego procesota to 64 bity. Procesor składa się 
 - pamięć (RAM) 
 Control Unit - jednostka sterująca, synchronizuje pracę logicznych modułóœ komputera. Komunikuje się z procesorem i pamięcią za pomocą szyny systemowej(daje podstawową częstotliwość wykonywanej operacji najczęściej wyrażana w Hz). Obok szyny systemowej są : szyny danych(przesyła dane), szyna adresowa(decyduje, gdzie trafiają odpowiednie dane). 
 (ROM, RAM, BIOS, UEFI) Część danych bierze się z pamięci ROM, tylko do odczytu. ROM zachowuje dane na stałe w przeciwieństwie do RAM-u. W ROM-ie znajduje się BIOS(podstawowy system wejścia-wyjścia) → UEFI (Interfejs pomiędzy systemem operacyjnym a filmware, następca BIOS-u). Decyduje, jakie urządzenia komputer jest w stanie rozpoznać bądź przekazać, udostępnić systemowi operacyjnemu. 
-- urządzenia wejścia 
-- urządzenia wyjścia
+- urządzenia wejścia (myszka, klawiatura)
+- urządzenia wyjścia(drukarka, monitor)
+
+
+**System operacyjny**
+
+Otwarty system operacyjny 
+1. jest on uniwersalny, np. Linux (działa na wielu architekturach)
+DEBIAN - jeden z najstarszych systemów operacyjnych. Architektura AMD64  jest 64 bitowa
+i86(i386) - architektura procesowa, 32 bitowa.
+ARM 32,64 bitowa, rozpowszechnione wśród tabletów, telefonów komórkowych, komputerów, mini komputerów(raspberry pi 3)
+2. źródła danego oprogramowania są dostępne publicznie
+
+System łączy 3 czynniki - hardward, software, user. 
+
+Składniki systemu operacyjnego:
+Jądro - warstwa oprogamowania operująca bezpośrednio na sprzęcie, pierwsze się ładuje do pamięci komputera, jądro najczęściej wczytuje sterowniki urządzeń (sterowniki urządzeń wewnętrznych), dzięki któremu powstaje interfejs np. WORD.  Archiktektury Windowsa i  Linuxa różnią się.  
+Jądro monotoliczne - szybkie, bardzo wydajne, ale jeżeli w sterowniku pojawi się błąd, staje się niestabilne.
+Jądro hybrydowe - mogą być troche wolniejsze,  ale stabilniejsze. 
+
+Funkcje systemu operacyjnego:
+- zawiera jądro, sterowniki
+- wirtualizacja urządzeń
+- zandoruje działanie komputera
+- zarządzanie zasobami sprzętu, gdyż musi je dzielić pomiędzy uruchomionymi aplikacjami.
+System klasy PC -  przeznaczone dla wielu użytkowników
+
+Interfejs :
+tekstowy - udostępniany w formie terminala tekstowego, było to urządzenie pozwalające pracować użytkownikowi z komputerem. Windows rozpowszechnił interfejs graficzny, który nazwano okienkowym. Windows ustandaryzował interfejs graficzny, wprowadził standard.
+ Windows 87 - interfejs kafelkowy
