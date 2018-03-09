@@ -42,6 +42,35 @@ Funkcje systemu operacyjnego:
 - zarządzanie zasobami sprzętu, gdyż musi je dzielić pomiędzy uruchomionymi aplikacjami.
 System klasy PC -  przeznaczone dla wielu użytkowników
 
-Interfejs :
+//Interfejs ://
 tekstowy - udostępniany w formie terminala tekstowego, było to urządzenie pozwalające pracować użytkownikowi z komputerem. Windows rozpowszechnił interfejs graficzny, który nazwano okienkowym. Windows ustandaryzował interfejs graficzny, wprowadził standard.
  Windows 87 - interfejs kafelkowy
+
+**Systemy operacyjne Microsoft** - dawniej firma garażowa. 
+MS - DOS 
+dir - listuje katalog
+edit config.sys
+A, B - litery zarezerowane dla dyskietek elastycznych.
+3,5" dyskietka przechowująca do 1MB.
+C - dysk twardy 
+Z - 
+dir bin - wyświetla polecenia, jakie można stosować w DOS
+katalog główny 
+w Linux: ls [[/ ,]] cd .. - poziom do góry
+DOS: dir c:\, cd temp - wejscie do katalogu, cd .. - poziom do góry
+
+Ścieżki bezwzględne cd [[/home/kl2ag2/Dokumenty/]] 
+względne cd Dokumenty/
+Windows musi mieć  pliki z rozszerzeniami,a w Linuxie plik jest rozpoznawany po nagłówki, symbol 16. Rozszerzenia mogą być, ale nie muszą np. programy w Linuxie. 
+EXE, COM - Mogą być otwarte  w Windowsie 
+//Atrybuty://
+A - plik zapisany na dysku
+R - tylko do odczytu
+h - plik ukryty
+s - pliki systemowy 
+Maksymalny rozmiar programu w DOS : ok 64KB
+Dos wykorzystywał tryb rzeczywisty procesora, przez co mozna było wydawać polecenia.
+WINDOWS 3.1 WORKGROUP:
+Okienka mają pasek tytułu, menu(klasyczne z DOS) gdzie pierwsze litery są podkreślone, są przyciski minimalizacji i maksymalizacji po prawej stronie, a zamknięcia po lewej stronie. Microsoft wymyślił otwieranie programów za pomocą ikon. Ustandaryzował interfejs: okno, pasek, ikony, przyciski. 
+Interfejs kafelkowy - Windows 8, nie nadaje się na komputery PC, lecz na np. telefony komórkowe. 
+Windows 10 

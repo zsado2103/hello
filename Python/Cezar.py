@@ -1,6 +1,6 @@
 #!/usr/bin/env python
 # -*- coding: utf-8 -*-
-#  
+#
 def szyfruj(tekst, klucz):
     """Szyfrowanie tekstu za pomoca szyfru Cezara"""
     szyfrogram = ""
@@ -17,7 +17,7 @@ def szyfruj(tekst, klucz):
     return szyfrogram
 
 
-def deszyfruj(szyfrogram, klucz): 
+def deszyfruj(szyfrogram, klucz):
     tekst = ""
     for znak in szyfrogram:
         ascii = ord(znak) - klucz
@@ -36,7 +36,7 @@ def deszyfruj(szyfrogram, klucz):
 def main(args):
     tekst = input("Podaj tekst: ")
     klucz = int(input("Podaj klucz: "))
-    szyfrogram = szyfruj(tekst, klucz)
+    szyfrogram = deszyfruj(tekst, klucz)
     print(szyfrogram)
     # print(deszyfruj(szyfrogram, klucz))
 
