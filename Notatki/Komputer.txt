@@ -74,3 +74,14 @@ WINDOWS 3.1 WORKGROUP:
 Okienka mają pasek tytułu, menu(klasyczne z DOS) gdzie pierwsze litery są podkreślone, są przyciski minimalizacji i maksymalizacji po prawej stronie, a zamknięcia po lewej stronie. Microsoft wymyślił otwieranie programów za pomocą ikon. Ustandaryzował interfejs: okno, pasek, ikony, przyciski. 
 Interfejs kafelkowy - Windows 8, nie nadaje się na komputery PC, lecz na np. telefony komórkowe. 
 Windows 10 
+
+
+**LINUX**
+Linux - jądro systemu Linux.
+Systemy własnościowe: Apple, Windows.
+open source - otwarte oprogramowanie.
+Dystrybucja linuxa składa się z jądra oraz oprogramowania dodatkowego.
+Jądro + interfejs użytkownika(np. graficzny) + oprogramowanie = system
+Dystrybucje Linuxa : Debian. W jego oparciu działa Ubuntu, Linux Mint.
+Rufus - narzędzie wypalające wszystko na pedrive.
+Partycja - część dysku. 
