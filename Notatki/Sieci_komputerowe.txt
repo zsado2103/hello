@@ -1,0 +1,27 @@
+Content-Type: text/x-zim-wiki
+Wiki-Format: zim 0.4
+Creation-Date: 2018-03-20T12:54:17+01:00
+
+====== Sieci komputerowe ======
+Created wtorek 20 marzec 2018
+
+hostem może być wszystko, co ma interfejs sieciowy. 
+Host to urządzenia uczestnicząca z wymianą danych itp.
+Serwer - dowolny host udostępniający usługę. Na jednym serwerze może być wiele usług. Jeden serwer też może udostępniać wiele usług. 
+Klient - komputer, który wysyła żądania do serwera i oczekuje od niego odpowiedzi.
+Sieci komputerowe:
+1. LOKALNA budowana w standardzie ethernet, łączy : kabel nieskrosowany (skrętka) - zakończona wtyczkami RJ 45, switch  - przełącznik sieciowy. Topologia gwiazdy - jedno urządzenie centralne, do którego podłączone są hosty. Aby z sieci LAN wyjść na zewnątrz potrzeba routera. WAN - sieć rozległa, do tego gniazda trzeba podpiąć kabel z internetem. Router może pobierać sygnał przez Wi - Fi(droga radiowa). Łączy sieć lokalną z siecią zewnętrzną. Router ma dwa interfejsy: wewnętrzny i zewnętrzny.
+	Każdy komputer musi mieć: 
+	- Adres IP 
+	- Domyślna trasa (brama)
+	- Adres serwera DNS
+	Pierwsze trzy liczby adresu są takie same 
+ping- wysyła pakiet kontrolny do urządzenia
+Internet - sieć sieci. Sieci rozległe, miejskie, lokalne połączone ze sobą! Sygnał przesyłany jest przez profesjonalne routery, które są spięte ze sobą przez światłowody. 
+Sieć szkieletowa - sieć telekomunikacyjna, komputerowa. 
+traceroute - pozwala zobaczyć, ile routerów jest po drodze.
+Kable morskie - światłowody pod wodą.
+Protokół sieciowy - język komputera, dzięki któremu może się on porozumiewać. 
+Określają konkretne usługi, jakie są dostępne, np. http, ftp, TCP(służy do transmisji), IPv4. Bez dwóch ostatnich nie istnieje komunikacja w internecie. 
+netstat - wyliczenie usług, z jakich korzysta komputer. 
+Na jednym serwerze albo na jednym kliencie może być uruchomione wiele aplikacji sieciowych i usługi, które są uruchamiane na różnych portach, by się nie pomyliły biedactwa.
