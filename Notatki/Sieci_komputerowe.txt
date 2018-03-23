@@ -25,3 +25,29 @@ Protokół sieciowy - język komputera, dzięki któremu może się on porozumie
 Określają konkretne usługi, jakie są dostępne, np. http, ftp, TCP(służy do transmisji), IPv4. Bez dwóch ostatnich nie istnieje komunikacja w internecie. 
 netstat - wyliczenie usług, z jakich korzysta komputer. 
 Na jednym serwerze albo na jednym kliencie może być uruchomione wiele aplikacji sieciowych i usługi, które są uruchamiane na różnych portach, by się nie pomyliły biedactwa.
+
+Model TCP / IP, model OSI
+Aplikacje: protokoły: FTTP, FTP, POP, IMAP - protokoły pocztowe, SSH - do łączenia między komputerami
+System DNS - baza rozproszona
+TLD - domeny najwyższego poziomu
+Adres url : protokół: //poddomena/ domena
+Cechy protokółu TCP:
+ połączeniowy, bo tworzy połączenie
+niezawodny, informacje docierają do klienta
+stanowy(CLOSE WAIT, ESTABLISHED, TIME WAIT)
+Segment [[:]] port nadawcy, port odbiorcy, |numer sekwencyjny, suma kontrolna|-> niezawodność. 
+Port sieciowy. POrty, które mają numery od 0 do 1000 to są well known, dobrze znane. 
+Numer sewencyjny - indentyfikator, który określa miejsce pakietu danych, przed fragmentacją.
+UDP (protokół transportowy) - port nadawcy, odbiorcy, suma kontrolna. 
+IP (protokół internetowy) - bez niego komputer nie jest w stanie funkcjonować w sieci.
+Wersja 4:
+- adres IP składa się z 32 bitów.
+- adres IP może być prywatny i publiczny
+Prwatne zakresy prywatne 10,172.
+192.168.3.3/24 - maska - ilość bitów zarezerwowanych na sieć
+192.168.3.0 - adres sieci
+		   |
+			  1 - 254
+192.168.3.255 - adres BROADCAST, bardzo często wykorzystywany
+NETWORK ADDRESS TRANSLATION - NAT 
+Router zamienia adresy lokalne na publiczne i odwrotnie.
