@@ -48,30 +48,40 @@ Prwatne zakresy prywatne 10,172.
 192.168.3.0 - adres sieci
 		   |
 			  1 - 254
-192.168.3.255 - adres BROADCAST, bardzo często wykorzystywany
+192.168.10.255!!!!!!!!!! 
+192.168.10.0/24
+
+- adres BROADCAST, bardzo często wykorzystywany
 NETWORK ADDRESS TRANSLATION - NAT 
 
 
 Router zamienia adresy lokalne na publiczne i odwrotnie.
 protokoły aplikacji HTTP, SMTP, FTP, POP
+HTTPS wykorzystuje szyfrowanie SSL
+Graficzny interfejs - VNC, RDC
 switch zmniejsza natężenie ruchu
-B SMTPS – bezpieczne wysyłanie
+B SMTPS,pop35 – bezpieczne wysyłanie
 DNS – ZMIENIA nazwę domeny na IP
 UDP  jest on Zawodny, bezpołączeniowy
-transportowe: IP, UDP, TCP
+transportowe: ip?, UDP, TCP
 ssh- używany do pracy zdalnej, 254.
 192.168.0.255, 192.168.0.0. 
 Maska podsieci ustala adres sieci, gdzie jest host.
 dns 53,www 80,443
 TCP - Cechy protokółu TCP: połączeniowy, niezawodny
-PING- diagnostyka połączeń sieciowych 
-DHCP - przekazuje hostom adres IP, bramę domyślną, adres serwera DNS
-router - NAT,  łączy różne sieci
+diagnostyka połączeń sieciowych - PING, TRACEROUTE  
+IP -- DHCP - przekazuje hostom adres IP, bramę domyślną, adres serwera DNS
+router - NAT,  łączy różne sieci,translacja
 osi tcp Warstwy: sesji, prezentacji (TCP)
-Protokoły w warstwie sieci: IP, ARP, ICMP
+Protokoły w warstwie sieci: IP, ARP?, ICMP
 GWIAZDA
 VNC, RDC.
+Gniazda sieciowe:port, lok?
 Polecenia takie jak ping korzystają z ICMP
 automatyczna konfiguracja adresu IP dhcp 
-Adresy IP różnią się od siebie 
+Adresy IP różnią się od siebie, prywatne 
 MAC - ARP - MAC
+
+PING korzysta ICMP
+TCP - warstwy:sesja, prezentacja
+informacje o konfiguracji sieci można uzyskac za pomocą ip addr lub netstat
