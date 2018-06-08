@@ -16,7 +16,7 @@
    version="1.1"
    id="svg8"
    inkscape:version="0.92.3 (2405546, 2018-03-11)"
-   sodipodi:docname="gawel_logo1.svg">
+   sodipodi:docname="logo.svg">
   <defs
      id="defs2" />
   <sodipodi:namedview
@@ -26,16 +26,16 @@
      borderopacity="1.0"
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
-     inkscape:zoom="0.45254834"
-     inkscape:cx="-274.56781"
+     inkscape:zoom="1.4831565"
+     inkscape:cx="466.52188"
      inkscape:cy="414.32563"
      inkscape:document-units="mm"
      inkscape:current-layer="layer1"
      showgrid="false"
-     inkscape:window-width="1853"
-     inkscape:window-height="1021"
-     inkscape:window-x="67"
-     inkscape:window-y="27"
+     inkscape:window-width="1920"
+     inkscape:window-height="1000"
+     inkscape:window-x="0"
+     inkscape:window-y="0"
      inkscape:window-maximized="1"
      inkscape:measure-start="0,0"
      inkscape:measure-end="0,0" />
@@ -47,7 +47,7 @@
         <dc:format>image/svg+xml</dc:format>
         <dc:type
            rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
-        <dc:title></dc:title>
+        <dc:title />
       </cc:Work>
     </rdf:RDF>
   </metadata>
@@ -92,16 +92,16 @@
        inkscape:connector-curvature="0" />
     <text
        xml:space="preserve"
-       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:42.33333206px;line-height:1.25;font-family:'Sitka Text';-inkscape-font-specification:'Sitka Text';letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:38.80555556px;line-height:1.25;font-family:'Sitka Text';-inkscape-font-specification:'Sitka Text';letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332;"
        id="text944"
        x="85.943855"
        y="31.571213"
        transform="translate(299.34187,-121.60764)"><textPath
          xlink:href="#path930"
          id="textPath946"><tspan
-   style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:42.33333206px;font-family:'Sitka Text';-inkscape-font-specification:'Sitka Text';stroke-width:0.26458332"
+   style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:38.80555556px;font-family:'Sitka Text';-inkscape-font-specification:'Sitka Text';stroke-width:0.26458332;"
    id="tspan942"><tspan
-     style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:42.33333206px;font-family:'Sitka Text';-inkscape-font-specification:'Sitka Text';stroke-width:0.26458332"
+     style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:38.80555556px;font-family:'Sitka Text';-inkscape-font-specification:'Sitka Text';stroke-width:0.26458332;"
      id="tspan940"
      y="185.84993"
      x="-148.50177">Collegium</tspan></tspan></textPath></text>
