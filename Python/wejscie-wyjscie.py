@@ -3,10 +3,10 @@
 
 
 def main(args):
-    osoba = input(' Jak masz na imię?\n ')
-    
-    print("Witaj!", osoba, "!")
-    
+    masa = float(input("Podaj swoją masę: "))
+    print(masa)
+    wzrost = float(input(" Podaj swój wzrost w metrach: "))
+    print(wzrost)
     return 0
 
 
