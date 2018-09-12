@@ -35,14 +35,14 @@ int main(int argc, char **argv)
     char znak;
     int a, b;
     a = b  = 0;
+
+
+    while(znak == '+' || '-' || '*' || '/'){
     cout <<"Podaj znak " << endl ; 
     cin >> znak;
-
-
-    while(znak == "+")
-        cout << "Podaj dwie liczby" << endl ;
+    cout << "Podaj dwie liczby" << endl ;
     cin >> a >> b;
-    
+
 	
         if (znak == '+')
         cout << "  " << dodaj(a , b) << endl;
@@ -50,8 +50,10 @@ int main(int argc, char **argv)
         cout << " " << odejmij (a, b) << endl;
     else if (znak == '*')
         cout << " " << mnoz(a,b)<< endl;
-        else if (znak == '/')
-    cout << "  " << dziel(a,b) << endl;
-	return 0;
+    else if (znak == '/')
+        cout << "  " << dziel(a,b) << endl;}
+	
+    
+    return 0;
 }
 
