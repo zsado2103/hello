@@ -10,7 +10,7 @@ CREATE TABLE miasta (
 );
 
 CREATE TABLE dane_demograficzne(
-  id INTEGER PRIMARY KEY AUTOINCREMENT,
+  id INTEGER,
   liczba_mieszkancow INTEGER,
   liczba_kobiet INTEGER,
   grupa_wiekowa TEXT(15),
