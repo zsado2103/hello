@@ -7,8 +7,16 @@ import sqlite3
 
 def kwerenda1(cur):
     cur.execute("""
-        SELECT * FROM nazwiska WHERE  nazwisko LIKE 'G%'
-    """)
+        SELECT * FROM nazwiska INNER JOIN oceny ON nazwiska.nr_ucznia = oceny.nr_ucznia 
+        """)
+    
+         #  SELECT * FROM nazwiska WHERE  nazwisko LIKE 'G%' # % Dowolna liczba np liter
+         #  SELECT * FROM nazwiska WHERE  imie1  LIKE 'A__a' # określona liczba liter
+         #  SELECT COUNT(*) FROM nazwiska WHERE  imie1  LIKE 'A__a' # zlicza ilość rekordów
+         #  SELECT * FROM nazwiska INNER JOIN dane_osobowe ON nazwiska.nr_ucznia = dane_osobowe.nr_ucznia #
+         #  SELECT COUNT(*) FROM nazwiska INNER JOIN dane_osobowe ON nazwiska.nr_ucznia = dane_osobowe.nr_ucznia WHERE miejsce_urodz <>'Gdańsku' # <>-nie
+         #  SELECT * FROM nazwiska INNER JOIN dane_osobowe ON nazwiska.nr_ucznia = dane_osobowe.nr_ucznia WHERE miesiac ='7' OR miesiac ='8'
+
     for row in cur.fetchall():
         print(tuple(row))
 
