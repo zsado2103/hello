@@ -7,15 +7,35 @@ import sqlite3
 
 def kwerenda1(cur):
     cur.execute("""
-
-                SELECT klasa, AVG(ocena) AS srednia FROM oceny
+                SELECT klasa, przedmiot, AVG(ocena) AS srednia FROM oceny
+                INNER JOIN przedmioty ON oceny.id_przedmiot=przedmioty.id
                 INNER JOIN uczniowie ON uczniowie.id=oceny.id_uczen
                 INNER JOIN klasy ON uczniowie.id_klasa=klasy.id
-                GROUP BY klasy.id
+                WHERE przedmiot = 'matematyka'
+                GROUP BY klasa
                 ORDER BY srednia DESC
-
+                
                 """)
+                
+                
+                # Średnie ocen z matematyki poszczególnych klas / Najwyższa ocena z matematyki
+                # SELECT klasa, przedmiot, AVG(ocena) AS srednia FROM oceny
+                # INNER JOIN przedmioty ON oceny.id_przedmiot=przedmioty.id
+                # INNER JOIN uczniowie ON uczniowie.id=oceny.id_uczen
+                # INNER JOIN klasy ON uczniowie.id_klasa=klasy.id
+                # WHERE przedmiot = 'matematyka'
+                # GROUP BY klasa
+                # ORDER BY srednia DESC
+                
 
+                
+                # ------- Średnie ocen z poszczególnych przedmiotów
+                #  SELECT przedmiot, AVG(ocena) FROM oceny
+                #  INNER JOIN przedmioty ON oceny.id_przedmiot=przedmioty.id
+                #  GROUP BY przedmiot
+                #  ORDER BY srednia DESC
+
+               # ------- Średnie ocen poszczególnych klas
                # SELECT klasa, AVG(ocena) AS srednia FROM oceny
                # INNER JOIN uczniowie ON uczniowie.id=oceny.id_uczen
                # INNER JOIN klasy ON uczniowie.id_klasa=klasy.id
