@@ -6,15 +6,20 @@
 
 <head>
 <meta charset="utf-8" />
-<title>Czat</title>
-<meta name="generator" content="Geany 1.32" />
+<title>Czat - Pytania</title>
+
 </head>
 
 <body>
-    <h1>Witaj na serwerze!</h1>
-    <p>Tworzymy aplikacje</p>
-    <a href="http://lo1.sandomierz.pl">Strona szkoły</a>
-    
+    <h1>Lista pytań</h1>
+
+
+    {% for obj in query %}
+    <p> 
+        <!-- wypisujemy id i treść pytania -->
+        {{ obj.id }} {{ obj.pytanie }}
+    </p>
+    {% endfor %}
 </body>
 
 </html>
