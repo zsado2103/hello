@@ -1,0 +1,29 @@
+<!--
+   quiz.html
+   
+   
+-->
+
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+<meta charset="utf-8" />
+<title>Quiz</title>
+
+</head>
+
+<body>
+    
+    <h1>Lista pytań</h1>
+    {% for p in query %}
+    <p> {{ p.id}} {{p. pytanie}}   
+        <ol>
+        {% for o in p.odpowiedzi %}
+            <li>{{o.odpowiedz}}</li>
+        {% endfor %}
+    </ol>
+    </p>
+    {% endfor %}
+</body>
+
+</html>

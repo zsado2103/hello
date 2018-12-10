@@ -6,20 +6,16 @@
 
 <head>
 <meta charset="utf-8" />
-<title>Czat - Pytania</title>
+<title>Quiz</title>
 
 </head>
 
 <body>
-    <h1>Lista pytań</h1>
-
-
-    {% for obj in query %}
-    <p> 
-        <!-- wypisujemy id i treść pytania -->
-        {{ obj.id }} {{ obj.pytanie }}
-    </p>
-    {% endfor %}
+    
+    <h1>Witamy w aplikacji Quiz!</h1>
+    <ol>
+        <li><a href="/quiz">Pytania</a></li>
+    </ol>
 </body>
 
 </html>

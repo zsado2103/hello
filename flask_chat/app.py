@@ -29,7 +29,7 @@ def index():
 
 @app.route('/quiz')
 def quiz():
-    pytania = Pytanie.select().annotate(Odpowiedz)
+    pytania = Pytanie.select().join(Odpowiedz).distinct().order_by(Pytanie.id)
     return render_template('quiz.html', query = pytania)
 
 @app.route('/klasa')
