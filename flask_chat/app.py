@@ -4,7 +4,7 @@
 #  app.py
 #  
 from flask import Flask, g
-from flask import render_template
+from flask import render_template, request
 from modele import *
 
 app = Flask(__name__)
@@ -27,8 +27,17 @@ def after_request(response):
 def index():
     return render_template('index.html')
 
-@app.route('/quiz')
+#WIDOK QUIZ
+
+@app.route('/quiz', methods = ['GET', 'POST'])
 def quiz():
+    print(request.form)
+    if request.method == 'POST':
+        wynik = 0
+        for pid, oid in request.form.items():
+            odp = Odpowiedz().select(Odpowiedz.odpok).where(Odpowiedz.id == odpok)
+            print(odp.odpok)
+            
     pytania = Pytanie.select().join(Odpowiedz).distinct().order_by(Pytanie.id)
     return render_template('quiz.html', query = pytania)
 
