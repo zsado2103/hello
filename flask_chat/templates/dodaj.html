@@ -1,16 +1,7 @@
-<!DOCTYPE html>
-<html lang="pl">
-<!--
-   dodaj.html
--->
-
-<head>
-    <meta charset="utf-8" />
-    <title>Quiz</title>
-</head>
-
-<body>
-    <h1>Quiz - dodawanie pytań </h1>
+{% extends "szablon.html" %}
+{% block tytul %}Quiz{% endblock %}
+{% block h1 %}Quiz - dodawanie pytań {% endblock %}
+{% block tresc %}
     <form method="POST" action="">
     {{ form.csrf_token }}
     
@@ -28,6 +19,7 @@
     </ol>
     <input type="submit" value="Zapisz pytanie">
     </form>
-</body>
-
-</html>
+    <p>
+        <li><a href="{{ url_for('index') }}">Strona główna</a></li>
+    </p>
+{% endblock %}
