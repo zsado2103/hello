@@ -2,31 +2,12 @@
 {% block tytul %}Czat – Pytania{% endblock %}
 {% block h1 %} Lista pytań {% endblock %}
 {% block tresc %}
-<!DOCTYPE html>
-<html lang="pl">
-
-<head>
-<meta charset="utf-8" />
-<title>Czat – Pytania</title>
-
-</head>
-
-<body>
-    <h1>Lista pytań</h1>
-    
-    <form method="POST">
-        
-            
+    <h2>Lista pytań</h2>
+    <ol>
     {% for p in query %}
-    <p>
-        <!-- wypisujemy id i treść pytania -->
-        {{ p.id }} {{ p.pytanie }}
-    </p>
+    
+        <li>{{ p.pytanie }}</li>
     {% endfor %}
-    <input type="submit" value="Zapisz odpowiedzi">
-    </form>
-    <p>
-    <li><a href="{{ url_for('index') }}"> Strona główna</a></a></li>
-    </p>
-
+    </ol>
+    
 {% endblock %}
