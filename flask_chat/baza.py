@@ -41,7 +41,7 @@ def dodaj_dane(dane):
 def main(args):
     if os.path.exists(baza_nazwa):
         os.remove(baza_nazwa)
-    baza.connect()  # poĹÄczenie z bazÄ
+    baza.connect()  # połączenie z bazą
     baza.create_tables([Kategoria, Pytanie, Odpowiedz])  # tworzymy tabele
 
     dane = {
@@ -60,4 +60,3 @@ def main(args):
 if __name__ == '__main__':
     import sys
     sys.exit(main(sys.argv))
-

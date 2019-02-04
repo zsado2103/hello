@@ -6,12 +6,13 @@
 from flask import g
 from modele import *
 from views import *
+import os
 
 app.config.update(dict(
     SECRET_KEY='bardzotajnyklucz',
-    TYTUL='Czat'
+    TITLE='Czat'
 ))
-
+# DATABASE=os.path.join(app.root_path, baza_nazwa)
 @app.before_request
 def before_request():
     g.db = baza
@@ -24,3 +25,5 @@ def after_request(response):
 
 if __name__ == '__main__':
     app.run(debug=True)
+    
+    

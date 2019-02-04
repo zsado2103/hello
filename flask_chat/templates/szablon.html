@@ -8,14 +8,14 @@
     <meta name="description" content="">
     <meta name="author" content="">
 
-    <title>{%block tytul%}{%endblock%}</title>
+    <title>{% block tytul %}{% endblock %}</title>
 
     <!-- Bootstrap core CSS -->
     <link href="{{ url_for('static', filename='vendor/bootstrap/css/bootstrap.min.css') }}" rel="stylesheet">
 
     <!-- Custom styles for this template -->
     <link href="{{ url_for('static', filename='css/scrolling-nav.css') }}" rel="stylesheet">
-    <link href="{{ url_for('static', filename='style.css') }}" rel="stylesheet">
+    <link href="{{ url_for('static', filename='css/style.css') }}" rel="stylesheet">
 
   </head>
 
@@ -31,13 +31,13 @@
         <div class="collapse navbar-collapse" id="navbarResponsive">
           <ul class="navbar-nav ml-auto">
             <li class="nav-item">
-              <a class="nav-link js-scroll-trigger" href="{{ url_for('lista') }}">Lista pytań</a>
+              <a class="nav-link js-scroll-trigger" href="{{ url_for('lista') }}">Lista</a>
             </li>
             <li class="nav-item">
               <a class="nav-link js-scroll-trigger" href="{{ url_for('quiz') }}">Quiz</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link js-scroll-trigger" href="{{ url_for('dodaj') }}">Dodaj pytanie</a>
+              <a class="nav-link js-scroll-trigger" href="{{ url_for('dodaj') }}">Dodaj</a>
             </li>
           </ul>
         </div>
@@ -61,7 +61,6 @@
       </div>
     </section>
 
-
     <!-- Footer -->
     <footer class="py-5 bg-dark">
       <div class="container">
@@ -71,14 +70,14 @@
     </footer>
 
     <!-- Bootstrap core JavaScript -->
-    <script src=" {{ url_for ('static', filename='vendor/jquery/jquery.min.js') }}"></script>
-    <script src="{{ url_for ('static', filename='vendor/bootstrap/js/bootstrap.bundle.min.js') }}"></script>
+    <script src="{{ url_for('static', filename='vendor/jquery/jquery.min.js') }}"></script>
+    <script src="{{ url_for('static', filename='vendor/bootstrap/js/bootstrap.bundle.min.js') }}"></script>
 
     <!-- Plugin JavaScript -->
-    <script src="{{ url_for ('static', filename='vendor/jquery-easing/jquery.easing.min.js') }}"></script>
+    <script src="{{ url_for('static', filename='vendor/jquery-easing/jquery.easing.min.js') }}"></script>
 
     <!-- Custom JavaScript for this theme -->
-    <script src="{{ url_for ('static', filename='js/scrolling-nav.js') }}"></script>
+    <script src="{{ url_for('static', filename='js/scrolling-nav.js') }}"></script>
 
   </body>
 

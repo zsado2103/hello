@@ -1,9 +1,5 @@
 /* quiz/static/style.css */
-body {
-    background: #D8C8C8;
-    color #383232;
-}
-#menu li {display: inline;}
+
 #komunikaty {
     width: 80%;
     margin: 2em;
@@ -15,5 +11,11 @@ span.blad { color: red; }
 span.sukces { color: green; }
 span.kom { color: blue; }
 
-ol.alfabet { list-style-type: lower-alpha}
-.bg-nawigacja {background-color: #1C381B; }
+ol.alfabet { list-style-type: lower-alpha; }
+.bg-nawigacja { background-color: #62256B; }
+
+
+section#about { padding: 50px 0;}
+li.elemdel { padding: 10px 0;}
+header { padding: 106px 0 50px 0;}
+

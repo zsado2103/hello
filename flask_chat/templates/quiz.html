@@ -3,22 +3,28 @@
 {% block h1 %}Quiz – odpowiedz na pytania{% endblock %}    
 {% block tresc %}
     
+    <h2>Rozwiąż quiz</h2>
+    
     <form method="POST">
+    <ol>
     {% for p in query %}
-    <p>
+
         <!-- wypisujemy id i treść pytania -->
-        {{ p.id }} {{ p.pytanie }}
+        <li>{{ p.pytanie }}
         
-        <br>
+        <ol class="alfabet">
         {% for o in p.odpowiedzi %}
-            <label>
+            <li>
                 <input type="radio" value="{{ o.id }}" name="{{ p.id }}">
                 {{ o.odpowiedz }}
-            </label>
+            </li>
         {% endfor %}
-        <br>
-    </p>
+        </ol>
+        </li>
+
     {% endfor %}
+    </ol>
+
     <input type="submit" value="Zapisz odpowiedzi">
     </form>
 
